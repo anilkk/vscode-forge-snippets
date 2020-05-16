@@ -103,5 +103,16 @@
     ],
     "description": "DateLozenge text component",
     "scope": "javascriptreact"
+  },
+  "Forge Fragment component": {
+    "prefix": "ffrgmnt",
+    "body": [
+      "<Fragment>",
+      "  <Text content=\"Hello world!\" />",
+      "  <Button text=\"Do something\" onClick={onClick} />",
+      "</Fragment>"
+    ],
+    "description": "Fragment component, a container for displaying multiple components. Can contain any Forge UI component.",
+    "scope": "javascriptreact"
   }
 }
