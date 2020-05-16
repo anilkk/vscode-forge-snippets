@@ -138,5 +138,30 @@
     ],
     "description": "ModalDialog component, A modal dialog displays content that floats above the application’s user interface. Use modal dialogs to present a short-term task initiated by the user.",
     "scope": "javascriptreact"
+  },
+  "Forge Table component": {
+    "prefix": "ftabl",
+    "body": [
+      "<Table>",
+      "  <Head>",
+      "    <Cell>",
+      "      <Text content=\"Header Column 1\" />",
+      "    </Cell>",
+      "    <Cell>",
+      "      <Text content=\"Header Column 2\" />",
+      "    </Cell>",
+      "  </Head>",
+      "  <Row>",
+      "    <Cell>",
+      "      <Text content=\"Row 1 Column 1\" />",
+      "    </Cell>",
+      "    <Cell>",
+      "      <Text content=\"Row 1 Column 2\" />",
+      "    </Cell>",
+      "  </Row>",
+      "</Table>"
+    ],
+    "description": "Table component, This component presents data and components in a grid format. It cannot contain another Table component within itself.",
+    "scope": "javascriptreact"
   }
 }
