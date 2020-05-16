@@ -2,24 +2,106 @@
   "Forge Button component": {
     "prefix": "fbtn",
     "body": "<Button text=\"button text\" onClick={() => console.log('perform button click action')} />",
-    "description": "",
+    "description": "Button Component",
     "scope": "javascriptreact"
   },
   "Forge ButtonSet component": {
     "prefix": "fbtns",
     "body": [
       "<ButtonSet>",
-      " <Button",
-      "  text=\"button text 1\"",
-      "  onClick={() => console.log('perform button 1 click action')}",
-      " />",
-      " <Button",
-      "  text=\"button text 2\"",
-      "  onClick={() => console.log('perform button 2 click action')}",
-      " />",
+      "  <Button",
+      "    text=\"button text 1\"",
+      "     onClick={() => console.log('perform button 1 click action')}",
+      "  />",
+      "  <Button",
+      "     text=\"button text 2\"",
+      "     onClick={() => console.log('perform button 2 click action')}",
+      "  />",
       "</ButtonSet>"
     ],
-    "description": "",
+    "description": "ButtonSet Component",
+    "scope": "javascriptreact"
+  },
+  "Forge Text component": {
+    "prefix": "ftxt",
+    "body": "<Text text=\"sample text\" />",
+    "description": "Text Component",
+    "scope": "javascriptreact"
+  },
+  "Forge Text Strong component": {
+    "prefix": "ftxts",
+    "body": ["<Text>", "  **It's a strong text**", "</Text>"],
+    "description": "Strong text component",
+    "scope": "javascriptreact"
+  },
+  "Forge Text Emphasis component": {
+    "prefix": "ftxte",
+    "body": ["<Text>", "  *It's a emphasis text*", "</Text>"],
+    "description": "Emphasis text component",
+    "scope": "javascriptreact"
+  },
+  "Forge Text Strike component": {
+    "prefix": "ftxtstri",
+    "body": ["<Text>", "  ~~strike~~", "</Text>"],
+    "description": "Strike text component",
+    "scope": "javascriptreact"
+  },
+  "Forge Text link component": {
+    "prefix": "ftxtl",
+    "body": [
+      "<Text>",
+      "  [It's a link to Forge](https://www.atlassian.com/forge)",
+      "</Text>"
+    ],
+    "description": "Link text component",
+    "scope": "javascriptreact"
+  },
+  "Forge Unordered list text component": {
+    "prefix": "ftxtul",
+    "body": [
+      "<Text> - Item 1 </Text>",
+      "<Text> - Item 2 </Text>",
+      "<Text> - Item 3 </Text>",
+      "<Text> - Item 4 </Text>"
+    ],
+    "description": "Unordered list text component",
+    "scope": "javascriptreact"
+  },
+  "Forge Ordered list text component": {
+    "prefix": "ftxtol",
+    "body": [
+      "<Text> 1. Item 1 </Text>",
+      "<Text> 2. Item 2 </Text>",
+      "<Text> 3. Item 3 </Text>",
+      "<Text> 4. Item 4 </Text>"
+    ],
+    "description": "Ordered list component",
+    "scope": "javascriptreact"
+  },
+  "Forge Code component": {
+    "prefix": "ftxtc",
+    "body": "<Text>{`<Text>sample text</Text>`}</Text>",
+    "description": "Code text component",
+    "scope": "javascriptreact"
+  },
+  "Forge Lozenge component": {
+    "prefix": "ftxtlo",
+    "body": [
+      "<Text>",
+      "   You have 4 tickets: <Lozenge text=\"In progress\" appearance=\"inprogress\" />",
+      "</Text>"
+    ],
+    "description": "Lozenge text component",
+    "scope": "javascriptreact"
+  },
+  "Forge DateLozenge component": {
+    "prefix": "ftxtdl",
+    "body": [
+      "<Text>",
+      "   <DateLozenge value={new Date('07-29-1988').getTime()} />",
+      "</Text>"
+    ],
+    "description": "DateLozenge text component",
     "scope": "javascriptreact"
   }
 }
