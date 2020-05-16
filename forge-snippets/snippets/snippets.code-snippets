@@ -125,5 +125,18 @@
     ],
     "description": "Image component, Image with The URL and the alternative text displayed if the image is not loaded.",
     "scope": "javascriptreact"
+  },
+  "Forge ModalDialog component": {
+    "prefix": "fmodd",
+    "body": [
+      "<Button text=\"Show modal\" onClick={() => setOpen(true)} />",
+      "{isOpen && (",
+      "  <ModalDialog header=\"My modal dialog\" onClose={() => setOpen(false)}>",
+      "    <Text>Hello there!</Text>",
+      "  </ModalDialog>",
+      ")}"
+    ],
+    "description": "ModalDialog component, A modal dialog displays content that floats above the application’s user interface. Use modal dialogs to present a short-term task initiated by the user.",
+    "scope": "javascriptreact"
   }
 }
